@@ -1,3 +1,49 @@
 body {
-    font-family: Product Sans;
+  font-family: Product Sans;
+}
+h1 {
+  font-size: 45px;
+  margin: 4px;
+}
+header {
+  position: fixed;
+  left: 30px;
+  top: 27px;
+}
+img {
+  border-radius: 50%;
+  width: 7%;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  overflow: hidden;
+  background-color: #dff9fb;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #222f3e;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+li a:hover:not(.active) {
+  background-color: #c7ecee;
+}
+
+.active {
+  background-color: #7ed6df;
+}
+h4 {
+  font-size: 12px;
+  text-align: left;
 }
