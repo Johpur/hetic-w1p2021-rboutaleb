@@ -36,12 +36,17 @@ li a {
   font-size: 23px;
 }
 
-li a:hover:not(.active) {
-  background-color: #c7ecee;
-}
-
-.active {
+.btnH {
   background-color: #7ed6df;
+}
+.btnY {
+  background-color: #ED4C67;
+}
+.btnP {
+  background-color: #D980FA;
+}
+.btnA {
+  background-color: #f1c40f;
 }
 h4 {
   font-size: 12px;
