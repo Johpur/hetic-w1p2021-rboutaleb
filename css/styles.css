@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: Product Sans;
 }
 h1 {
   font-size: 45px;
   margin: 4px;
+}
+h1 span {
+  font-weight: bolder;
 }
 header {
   position: fixed;
@@ -30,7 +36,6 @@ li {
 li a {
   display: block;
   color: #222f3e;
-  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
@@ -51,4 +56,8 @@ li a {
 h4 {
   font-size: 12px;
   text-align: left;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
