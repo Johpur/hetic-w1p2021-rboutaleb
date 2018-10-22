@@ -61,3 +61,9 @@ h2 {
   font-size: 40px;
   font-weight: bold;
 }
+p {
+  font-size: 24px;
+}
+p span {
+  font-weight: bolder;
+}
